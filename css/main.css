@@ -9,6 +9,12 @@ body {
 }
 
 /* Header */
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .header {
     display: table;
     position: relative;
@@ -26,15 +32,15 @@ body {
     color: #fff;
 }
 
+.header img {
+    width: 310px;
+    height: auto;
+}
+
 .header-container {
     max-width: 300px;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
 
 /* Custom Button */
 .btn-light {
@@ -59,7 +65,6 @@ hr.small {
 
 /* Projects */
 .projects {
-    padding: 50px 0;
     background-color: #b88bad;
 }
 
@@ -69,7 +74,11 @@ hr.small {
 
 /* People */
 .people {
-    padding: 50px 0;
+    background-color: #333333;
+}
+
+.people h2 {
+    color: #ffffff;
 }
 
 .people-item {
