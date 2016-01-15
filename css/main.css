@@ -1,11 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Global Styles */
-
 html,
 body {
     width: 100%;
@@ -13,11 +5,10 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Header */
-
 .header {
     display: table;
     position: relative;
@@ -47,26 +38,26 @@ body {
 
 /* Custom Button */
 .btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
+    width: 100px !important;
+    background-color: transparent;
+    color: #f9a6cc;
+    border: 1px solid #f9a6cc;
+    transition: .2s ease;
+    margin-bottom: 2em;
 }
 
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
+.btn-light:hover {
+    background-color: #f9a6cc;
+    color: white;
+    transition: .2s ease;
 }
 
 /* Custom Horizontal Rule */
-
 hr.small {
     max-width: 100px;
 }
 
 /* Projects */
-
 .projects {
     padding: 50px 0;
     background-color: #b88bad;
@@ -77,7 +68,6 @@ hr.small {
 }
 
 /* People */
-
 .people {
     padding: 50px 0;
 }
